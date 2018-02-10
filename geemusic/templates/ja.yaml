@@ -1,0 +1,64 @@
+# common
+no_song: "すみません、その楽曲は見つかりませんでした。"
+no_artist: "すみません、そのアーティストは見つかりませんでした。"
+no_album: "すみません、そのアルバムは見つかりませんでした。"
+no_albums: "すみません、アルバムは見つかりません。"
+indexing: "インデックスの作成が完了するまでお待ち下さい。"
+play_album_text: "{{ artist }} のアルバム {{ album }} を再生します。"
+play_song_text: "{{ artist }} の {{ song }} を再生します。"
+
+# selection.py
+login_text: "ジーミュージックへようこそ。音楽の再生やプレイリストの開始をしてみてください。"
+login_prompt: "例えば、「トライブコールドクエストの曲をかけて」と言ってみてください。"
+login_title: "Gee Music へようこそ！"
+login_content: "音楽の再生をしてみてください。"
+help_text: "例えば、こんなことができます。
+            レディオヘッドの曲をかけて、
+            アルバム サイエンスフォーガールズをかけて、
+            フィッター・ハッピアーという曲をかけて、
+            アーティスト「ウィーザー」のラジオを開始、
+            ダンスパーティーのプレイリストを開始、
+            何か音楽をかけて。
+            もちろん、スキップ、前の曲、シャッフル再生、停止、などの
+            Alexa の音楽コマンドを言うこともできます。"
+help_prompt: "例えば、「トライブコールドクエストの曲をかけて」と言ってみてください。"
+play_promoted_songs_no_songs: "すみません、高く評価した曲は見つかりませんでした。"
+play_promoted_songs_text: "高く評価した楽曲を再生します。"
+play_artist_text: "{{ artist }} の人気の曲を再生します。"
+play_similar_song_radio_no_song: "ラジオを開始するには、何か音楽を再生してください。"
+play_artist_radio_text: "{{ artist }} のラジオを再生します。"
+queue_song_no_song: "まずは、音楽を再生してください。"
+queue_song_queued: "{{ artist }} の {{ song }} を再生リストに追加しました"
+play_playlist_no_match: "すみません、ライブラリにそのアーティストを見つけることができませんでした。"
+play_playlist_text: "{{ playlist }} のプレイリストから楽曲を再生します。"
+play_IFL_radio_text: "あなたにおすすめのステーションから音楽を再生します。"
+play_IFL_radio_title: "I'm Feeling Lucky ラジオを再生します。"
+play_different_album_no_track: "すみません、現在再生しているアルバムはありません。"
+play_library_text: "ライブラリから楽曲を再生します。"
+
+# playback.py
+stopped: "{{ offset }} で停止"
+started: "{{ offset }} で開始"
+start_over: "再生リストには楽曲はありません。"
+resume: "再開します。"
+pause: "一時停止します。"
+stop: "停止します。"
+next_song: "再生リストにはこれ以上楽曲はありません。"
+prev_song: "これ以上前の曲に戻ることはできません。"
+shuffle_on: "シャッフル再生するための曲がありません。"
+shuffle_off: "シャッフル再生をやめるための曲がありません。"
+loop_text: "再生リストには楽曲はありません。"
+currently_playing_none: "現在再生中の曲はありません。"
+success_title: "現在再生中の曲は "
+success_text: "{{ artist }} の {{ song }} です。"
+playlist_separator: "と"
+list_all_playlists_text: "ライブラリには {{ playlist_count }} 個のプレイリストがあります。{{ playlist_list }} です。"
+thumbs_no_song: "高評価をつけるための曲を再生してください。"
+thumbs_up_text: "高評価をつけました。"
+thumbs_down_text: "低評価をつけました。"
+restart_tracks_none: "最初から再生するには、何か楽曲を再生する必要があります。"
+restart_tracks_text: "最初から再生します。"
+skip_to_no_song: "この機能を使うには、曲名を言ってください。"
+skip_to_no_match: "すみません、一致する楽曲が再生リストに見つかりません。"
+skip_to_no_song_match: "すみません、再生リストにその曲がありませんでした。"
+skip_to_speech_text: "{{ artist }} の {{ song }} までスキップします。"
